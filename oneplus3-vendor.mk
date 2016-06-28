@@ -33,24 +33,10 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel
 
 PRODUCT_PACKAGES += \
-    libdiag \
-    libdsutils \
-    libidl \
-    libmdmdetect \
-    libqcci_legacy \
-    libqmi_cci \
-    libqmi_client_qmux \
-    libqmiservices \
-    libqmi
-
-PRODUCT_PACKAGES += \
     libloc_api_v02
 
 PRODUCT_PACKAGES += \
     libtime_genoff
-
-PRODUCT_PACKAGES += \
-    libthermalclient
 
 PRODUCT_PACKAGES += \
     qdcm_calib_data_samsung_s6e3fa3_1080p_cmd_mode_dsi_panel \
