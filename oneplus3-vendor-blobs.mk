@@ -37,6 +37,13 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus3/proprietary/vendor/lib64/libadiertac.so:/system/vendor/lib64/libadiertac.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib64/libaudcal.so:/system/vendor/lib64/libaudcal.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib64/libaudiodevarb.so:/system/vendor/lib64/libaudiodevarb.so \
+        vendor/oneplus/oneplus3/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:/system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+        vendor/oneplus/oneplus3/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:/system/etc/acdbdata/MTP/MTP_General_cal.acdb \
+        vendor/oneplus/oneplus3/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:/system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+        vendor/oneplus/oneplus3/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:/system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+        vendor/oneplus/oneplus3/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:/system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+        vendor/oneplus/oneplus3/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:/system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+        vendor/oneplus/oneplus3/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:/system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
         vendor/oneplus/oneplus3/proprietary/bin/btnvtool:/system/bin/btnvtool \
         vendor/oneplus/oneplus3/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/oneplus/oneplus3/proprietary/bin/wcnss_filter:/system/bin/wcnss_filter \
@@ -53,6 +60,9 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus3/proprietary/vendor/lib/libbtnv.so:/system/vendor/lib/libbtnv.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib64/libbtnv.so:/system/vendor/lib64/libbtnv.so \
         vendor/oneplus/oneplus3/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
+        vendor/oneplus/oneplus3/proprietary/etc/camera/imx179_chromatix.xml:/system/etc/camera/imx179_chromatix.xml \
+        vendor/oneplus/oneplus3/proprietary/etc/camera/imx298_chromatix.xml:/system/etc/camera/imx298_chromatix.xml \
+        vendor/oneplus/oneplus3/proprietary/etc/camera/msm8996_camera.xml:/system/etc/camera/msm8996_camera.xml \
         vendor/oneplus/oneplus3/proprietary/lib/hw/camera.msm8996.so:/system/lib/hw/camera.msm8996.so \
         vendor/oneplus/oneplus3/proprietary/lib/libFNVfbEngineHAL.so:/system/lib/libFNVfbEngineHAL.so \
         vendor/oneplus/oneplus3/proprietary/lib/libmm-qcamera.so:/system/lib/libmm-qcamera.so \
@@ -421,6 +431,9 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus3/proprietary/etc/firmware/a530v3_seq.fw2:/system/etc/firmware/a530v3_seq.fw2 \
         vendor/oneplus/oneplus3/proprietary/vendor/lib/hw/keystore.msm8996.so:/system/vendor/lib/hw/keystore.msm8996.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib64/hw/keystore.msm8996.so:/system/vendor/lib64/hw/keystore.msm8996.so \
+        vendor/oneplus/oneplus3/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:/system/vendor/lib/hw/sound_trigger.primary.msm8996.so \
+        vendor/oneplus/oneplus3/proprietary/vendor/lib/libadpcmdec.so:/system/vendor/lib/libadpcmdec.so \
+        vendor/oneplus/oneplus3/proprietary/vendor/lib/libsmwrapper.so:/system/vendor/lib/libsmwrapper.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib/libI420colorconvert.so:/system/vendor/lib/libI420colorconvert.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib/libOmxAacDec.so:/system/vendor/lib/libOmxAacDec.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib/libOmxEvrcDec.so:/system/vendor/lib/libOmxEvrcDec.so \
@@ -436,6 +449,13 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus3/proprietary/bin/msm_irqbalance:/system/bin/msm_irqbalance \
         vendor/oneplus/oneplus3/proprietary/lib64/libqti-iop.so:/system/lib64/libqti-iop.so \
         vendor/oneplus/oneplus3/proprietary/vendor/bin/perfd:/system/vendor/bin/perfd \
+        vendor/oneplus/oneplus3/proprietary/vendor/etc/perf-profile0.conf:/system/vendor/etc/perf-profile0.conf \
+        vendor/oneplus/oneplus3/proprietary/vendor/etc/perf-profile1.conf:/system/vendor/etc/perf-profile1.conf \
+        vendor/oneplus/oneplus3/proprietary/vendor/etc/perf-profile2.conf:/system/vendor/etc/perf-profile2.conf \
+        vendor/oneplus/oneplus3/proprietary/vendor/etc/perf-profile3.conf:/system/vendor/etc/perf-profile3.conf \
+        vendor/oneplus/oneplus3/proprietary/vendor/etc/perf-profile4.conf:/system/vendor/etc/perf-profile4.conf \
+        vendor/oneplus/oneplus3/proprietary/vendor/etc/perf-profile5.conf:/system/vendor/etc/perf-profile5.conf \
+        vendor/oneplus/oneplus3/proprietary/vendor/etc/perf-profile6.conf:/system/vendor/etc/perf-profile6.conf \
         vendor/oneplus/oneplus3/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib/libqti-iop-client.so:/system/vendor/lib/libqti-iop-client.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib/libqti-perfd-client.so:/system/vendor/lib/libqti-perfd-client.so \
@@ -504,6 +524,9 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus3/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/oneplus/oneplus3/proprietary/bin/radish:/system/bin/radish \
         vendor/oneplus/oneplus3/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
+        vendor/oneplus/oneplus3/proprietary/etc/data/dsi_config.xml:/system/etc/data/dsi_config.xml \
+        vendor/oneplus/oneplus3/proprietary/etc/data/netmgr_config.xml:/system/etc/data/netmgr_config.xml \
+        vendor/oneplus/oneplus3/proprietary/etc/data/qmi_config.xml:/system/etc/data/qmi_config.xml \
         vendor/oneplus/oneplus3/proprietary/etc/permissions/qcnvitems.xml:/system/etc/permissions/qcnvitems.xml \
         vendor/oneplus/oneplus3/proprietary/etc/permissions/qcrilhook.xml:/system/etc/permissions/qcrilhook.xml \
         vendor/oneplus/oneplus3/proprietary/etc/permissions/telephonyservice.xml:/system/etc/permissions/telephonyservice.xml \
@@ -560,6 +583,8 @@ PRODUCT_COPY_FILES += \
         vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Reliance-Commercial.mbn:/system/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Reliance-Commercial.mbn \
         vendor/oneplus/oneplus3/proprietary/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_YTL-Commercial.mbn:/system/etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_YTL-Commercial.mbn \
         vendor/oneplus/oneplus3/proprietary/bin/sensors.qcom:/system/bin/sensors.qcom \
+        vendor/oneplus/oneplus3/proprietary/etc/sensors/hals.conf:/system/etc/sensors/hals.conf \
+        vendor/oneplus/oneplus3/proprietary/etc/sensors/sensor_def_qcomdev.conf:/system/etc/sensors/sensor_def_qcomdev.conf \
         vendor/oneplus/oneplus3/proprietary/vendor/lib/hw/activity_recognition.msm8996.so:/system/vendor/lib/hw/activity_recognition.msm8996.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib/libsensor1.so:/system/vendor/lib/libsensor1.so \
         vendor/oneplus/oneplus3/proprietary/vendor/lib/libsensor_reg.so:/system/vendor/lib/libsensor_reg.so \
